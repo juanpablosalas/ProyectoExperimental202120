@@ -1,0 +1,125 @@
+Title=calceina emision
+Comment=
+Signature=ISS_Experiment_Ver_1_0
+Timestamp=Thu Sep 16 14:15:52 2021
+
+AcquisitionType=Photon Counting
+AcquisitionFormat=L
+AcquisitionSide=Right
+
+Measurable=Intensity
+DarkUpdatePeriodInMinutes=1000.0
+
+RightEmissionWavelengthBandwidth=8
+ExcitationWavelengthBandwidth=8
+Visualization=PlotType:2D,X:EmissionWavelength,Y:Intensity
+
+
+Sample=type:label,unit:none,values:Reference
+EmissionWavelength=type:numeric,unit:nm,from:500.0,to:600.0,step:1.0
+ExcitationWavelength=type:numeric,unit:nm,fixed:460.0
+
+Space=Sample,EmissionWavelength
+Columns=Sample,EmissionWavelength,Intensity,IntensityStdError,Temperature
+[Data]
+Reference	500    	         10563.3       103.23               37
+Reference	501    	           10775       109.03               37
+Reference	502    	         11238.8       86.057               37
+Reference	503    	         11568.1       100.81          37.0033
+Reference	504    	         11703.5       132.52          37.0033
+Reference	505    	         12068.6       86.366          37.0033
+Reference	506    	         12471.8       137.92               37
+Reference	507    	         12571.8       98.075               37
+Reference	508    	         12684.2       110.04          37.0033
+Reference	509    	         13023.3       111.09          37.0033
+Reference	510    	         13411.6       109.09          37.0033
+Reference	511    	         13519.1       141.96          37.0033
+Reference	512    	         13767.4       83.204          37.0033
+Reference	513    	         13675.7       107.29          37.0033
+Reference	514    	         13475.8       99.072          37.0033
+Reference	515    	         13943.4       109.93               37
+Reference	516    	           13891       57.825               37
+Reference	517    	         13747.7       154.39               37
+Reference	518    	         13773.4       149.17               37
+Reference	519    	         13387.1       161.23               37
+Reference	520    	         13155.3       156.89               37
+Reference	521    	         13104.5       80.998               37
+Reference	522    	         13055.7        106.6               37
+Reference	523    	         12686.8       88.971          37.0033
+Reference	524    	           12570       146.58          37.0033
+Reference	525    	           11952       104.07          37.0033
+Reference	526    	           11907       127.67               37
+Reference	527    	         11567.5       114.46               37
+Reference	528    	         11406.4       61.702               37
+Reference	529    	         11278.6       96.605               37
+Reference	530    	         10674.3       88.658               37
+Reference	531    	         10287.5       52.093               37
+Reference	532    	         10155.6       100.29               37
+Reference	533    	          9984.2       106.86               37
+Reference	534    	          9554.6        121.3               37
+Reference	535    	          9287.1       157.23               37
+Reference	536    	          8926.9       92.386               37
+Reference	537    	          8814.6       54.995               37
+Reference	538    	          8582.8       116.92               37
+Reference	539    	          8406.7       91.061               37
+Reference	540    	            8316       110.37          37.0033
+Reference	541    	          8126.7       59.932          37.0033
+Reference	542    	          7718.6       81.579          37.0033
+Reference	543    	          7587.1       68.442               37
+Reference	544    	          7387.3       96.837               37
+Reference	545    	          7208.6       80.494               37
+Reference	546    	          6910.8       130.21               37
+Reference	547    	          6807.2       115.52               37
+Reference	548    	          6751.6       127.68               37
+Reference	549    	          6371.8       120.09               37
+Reference	550    	          6214.8       116.17               37
+Reference	551    	          6015.8       59.573               37
+Reference	552    	          5928.5       72.441               37
+Reference	553    	          5619.2       86.837               37
+Reference	554    	          5531.6       75.095               37
+Reference	555    	            5347        58.21          37.0033
+Reference	556    	          5187.1       64.946          37.0033
+Reference	557    	          5016.4       59.304          37.0033
+Reference	558    	          4739.4       67.236          37.0033
+Reference	559    	          4615.6        38.36               37
+Reference	560    	          4411.3        83.59               37
+Reference	561    	          4159.9       79.495               37
+Reference	562    	          3823.4       77.947               37
+Reference	563    	          4039.1       88.889               37
+Reference	564    	          3820.2       75.054               37
+Reference	565    	            3559       43.898               37
+Reference	566    	          3490.7       49.812          37.0033
+Reference	567    	          3403.6        76.58          37.0033
+Reference	568    	          3207.1        53.82          37.0033
+Reference	569    	          3063.2       47.389               37
+Reference	570    	          2990.4       61.622               37
+Reference	571    	            2842       64.884               37
+Reference	572    	          2688.1       67.752          37.0033
+Reference	573    	          2643.4       62.561          37.0033
+Reference	574    	          2487.4        51.33               37
+Reference	575    	          2306.9       53.526               37
+Reference	576    	          2396.3        68.04               37
+Reference	577    	          2229.6       69.179          37.0033
+Reference	578    	          2046.4       57.899          37.0033
+Reference	579    	          1986.9       37.611          37.0033
+Reference	580    	            1988       46.323               37
+Reference	581    	          2034.6       42.927               37
+Reference	582    	          1791.3       27.463               37
+Reference	583    	          1750.9        54.23               37
+Reference	584    	          1706.5       33.686               37
+Reference	585    	          1679.2       45.506               37
+Reference	586    	          1634.5       25.632               37
+Reference	587    	          1536.1       54.963               37
+Reference	588    	          1483.6       59.244               37
+Reference	589    	          1436.2        27.05               37
+Reference	590    	          1290.6       46.276               37
+Reference	591    	            1292       53.006               37
+Reference	592    	          1343.7       62.277               37
+Reference	593    	          1294.9       54.249               37
+Reference	594    	          1191.1       44.053               37
+Reference	595    	          1115.9        35.25               37
+Reference	596    	          1142.7       41.324               37
+Reference	597    	          1043.5       29.857               37
+Reference	598    	           978.6       51.546               37
+Reference	599    	           957.8       45.432               37
+Reference	600    	           918.8       50.804          37.0033
