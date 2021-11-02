@@ -1,0 +1,92 @@
+Title=14 B + L + P(b) + T 
+Comment=2ul de péptido
+Signature=ISS_Experiment_Ver_1_0
+Timestamp=Mon Oct 25 12:21:00 2021
+
+AcquisitionType=Photon Counting
+AcquisitionFormat=L
+AcquisitionSide=Right
+
+Measurable=Intensity
+DarkUpdatePeriodInMinutes=1000.0
+
+RightEmissionWavelengthBandwidth=8
+ExcitationWavelengthBandwidth=8
+Visualization=PlotType:2D,X:Time,Y:Intensity
+
+
+Sample=type:label,unit:none,values:Reference
+Time=type:numeric,unit:s,from:0.0,to:100.0,step:1.5
+ExcitationWavelength=type:numeric,unit:nm,fixed:490.0
+EmissionWavelength=type:numeric,unit:nm,fixed:515.0
+
+Space=Sample,Time
+Columns=Sample,Time,Intensity,IntensityStdError,Temperature
+[Data]
+Reference	   0.00	           260.8       23.065            36.94
+Reference	   1.50	           251.9       18.273            36.95
+Reference	   3.00	           256.9       23.444            36.96
+Reference	   4.50	           284.7       21.321            36.97
+Reference	   6.00	          5403.6       3034.4          36.9733
+Reference	   7.50	         23528.3       329.28          36.9866
+Reference	   9.00	         10939.5       2612.3            36.98
+Reference	  10.50	          5455.8       71.289            36.98
+Reference	  12.00	          5447.6       117.18          36.9966
+Reference	  13.50	          5267.5       66.263            36.99
+Reference	  15.00	          5031.8         61.2               37
+Reference	  16.50	            5060       34.274               37
+Reference	  18.00	          5187.9       105.29          37.0033
+Reference	  19.50	          5124.3       83.234          37.0066
+Reference	  21.00	          5182.9       81.231          37.0066
+Reference	  22.50	          5040.9       75.268            37.01
+Reference	  24.00	            5196       71.035            37.01
+Reference	  25.50	          5103.6       102.37            37.01
+Reference	  27.00	          5055.9       83.169            37.01
+Reference	  28.50	          5086.8       73.068            37.01
+Reference	  30.00	          5183.9       79.248            37.01
+Reference	  31.50	          4980.9       52.165            37.01
+Reference	  33.00	          5191.5       61.143          37.0133
+Reference	  34.50	         24783.7       157.71          37.0133
+Reference	  36.00	         26591.6       735.96          37.0133
+Reference	  37.50	         57307.7         1242          37.0133
+Reference	  39.00	         35408.1       227.17          37.0133
+Reference	  40.50	         35017.3       176.67          37.0133
+Reference	  42.00	         35467.2       112.27          37.0133
+Reference	  43.50	         35494.9       129.03          37.0133
+Reference	  45.00	         35205.2       194.53          37.0133
+Reference	  46.50	         34907.8       256.16          37.0133
+Reference	  48.00	         34792.3       215.25          37.0133
+Reference	  49.50	         34731.8       233.47            37.01
+Reference	  51.00	         34472.4       265.49            37.01
+Reference	  52.50	         34684.4       274.63            37.01
+Reference	  54.00	         34835.5       178.58            37.01
+Reference	  55.50	         34527.2       108.65            37.01
+Reference	  57.00	         34359.7       192.71            37.01
+Reference	  58.50	         43983.4       4033.4            37.01
+Reference	  60.00	         58444.7       692.99            37.01
+Reference	  61.50	         46172.2       3937.7            37.01
+Reference	  63.00	         30235.7       228.51            37.01
+Reference	  64.50	         29617.9       174.46            37.01
+Reference	  66.00	         29963.7       154.11            37.01
+Reference	  67.50	         29883.6       113.01            37.01
+Reference	  69.00	         29516.7       154.68            37.01
+Reference	  70.50	           29196       205.86            37.01
+Reference	  72.00	         29383.3       208.49            37.01
+Reference	  73.50	         29635.5        148.1            37.01
+Reference	  75.00	         29483.9       147.97            37.01
+Reference	  76.50	         29288.5       141.33            37.01
+Reference	  78.00	         29347.1       197.14            37.01
+Reference	  79.50	         29203.8        220.5            37.01
+Reference	  81.00	         29448.3       182.05            37.01
+Reference	  82.50	           29225       144.59            37.01
+Reference	  84.00	         29279.7       126.24            37.01
+Reference	  85.50	         29420.2       144.68            37.01
+Reference	  87.00	         29242.1       173.11            37.01
+Reference	  88.50	         28862.9       154.39          37.0066
+Reference	  90.00	         29027.9       125.07            37.01
+Reference	  91.50	         28703.9       166.29            37.01
+Reference	  93.00	           28728       235.54            37.01
+Reference	  94.50	         48579.8       1070.8          37.0066
+Reference	  96.00	         15307.1       128.64          37.0066
+Reference	  97.50	         16907.6       911.25          37.0066
+Reference	  99.00	         30450.9       361.69          37.0066
